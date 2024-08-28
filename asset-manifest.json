@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/NavCGaur/portfolio/static/css/main.3fe783a2.css",
+    "main.js": "/NavCGaur/portfolio/static/js/main.7e715ff7.js",
+    "static/js/453.8c68eb57.chunk.js": "/NavCGaur/portfolio/static/js/453.8c68eb57.chunk.js",
+    "static/media/weatherapp.png": "/NavCGaur/portfolio/static/media/weatherapp.907e8ad48e17594b3184.png",
+    "static/media/school.png": "/NavCGaur/portfolio/static/media/school.2af4a08fb028cfc60109.png",
+    "static/media/modernBlog.png": "/NavCGaur/portfolio/static/media/modernBlog.de40cb86576432199ca4.png",
+    "static/media/vscode.png": "/NavCGaur/portfolio/static/media/vscode.318555b3bad349c365e8.png",
+    "static/media/js.png": "/NavCGaur/portfolio/static/media/js.83903b30822753b81ed1.png",
+    "static/media/postman.png": "/NavCGaur/portfolio/static/media/postman.91690925a2050c5fa76c.png",
+    "static/media/profileImage.jpg": "/NavCGaur/portfolio/static/media/profileImage.6efd0f190abffaa92c31.jpg",
+    "static/media/bulb.png": "/NavCGaur/portfolio/static/media/bulb.40974f8d0ca06f0fa91c.png",
+    "static/media/css3.png": "/NavCGaur/portfolio/static/media/css3.9407ad358cdb22b8b1f0.png",
+    "static/media/github2.png": "/NavCGaur/portfolio/static/media/github2.10499e8002483497c294.png",
+    "static/media/Nodejs.png": "/NavCGaur/portfolio/static/media/Nodejs.31c0e97d5776c294d370.png",
+    "static/media/figma.png": "/NavCGaur/portfolio/static/media/figma.ab4decc0ffd9fd552964.png",
+    "static/media/whatsApp.png": "/NavCGaur/portfolio/static/media/whatsApp.c651bebf23c27c307430.png",
+    "index.html": "/NavCGaur/portfolio/index.html",
+    "static/media/menu.svg": "/NavCGaur/portfolio/static/media/menu.4ada9cff8def51a13630540467bf0937.svg",
+    "static/media/xmark.svg": "/NavCGaur/portfolio/static/media/xmark.d21dd28efe7ef65901afb48fdea1a94a.svg",
+    "static/media/circle-dot.svg": "/NavCGaur/portfolio/static/media/circle-dot.3f673682b11103ca0d81effab86a6785.svg",
+    "static/media/circle.svg": "/NavCGaur/portfolio/static/media/circle.c0f0e37e787b05fc395fb6d5a658c6a1.svg",
+    "main.3fe783a2.css.map": "/NavCGaur/portfolio/static/css/main.3fe783a2.css.map",
+    "main.7e715ff7.js.map": "/NavCGaur/portfolio/static/js/main.7e715ff7.js.map",
+    "453.8c68eb57.chunk.js.map": "/NavCGaur/portfolio/static/js/453.8c68eb57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe783a2.css",
+    "static/js/main.7e715ff7.js"
+  ]
+}
