@@ -1,0 +1,6 @@
+:root{
+    --color-background:#202424;
+    --color-text: #FDFFFF;
+    --color-border: #FDFFFF;
+    --color-button: linear-gradient(to bottom, #5DA4F0, #3D4EE6 )
+}

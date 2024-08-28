@@ -1,0 +1,184 @@
+.contact{
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(to bottom, #1b1d1d, #0d0d0d, #050505);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  background: inherit;
+
+
+}
+
+.contact__leftSection{
+  width: 40%;
+  padding-top: 3rem;
+  padding-left: 10%;
+  line-height: 3rem;
+  letter-spacing: 0.08rem;
+  font-weight: 500;
+}
+
+.contact__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.contact__rightSection{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15%;
+  padding-bottom: 4rem;
+
+}
+
+.contact__rightSection img{
+  position: relative;
+  height: 10rem;
+  width: auto;
+  z-index: 1;
+  margin-top: 4rem;
+  animation: neon-glow 5s ease-in-out infinite;
+
+}
+.neon-text {
+  position: absolute;
+  top: 7rem;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  color: #fff; /* Base text color */
+  color: #ffffff; /* Bright white base text color */
+  text-shadow: 0 0 10px #fff,   /* Stronger white inner glow */
+               0 0 40px #ff00ff, 
+               0 0 100px #ff00ff,/* Strong outermost glow */
+               0 0 180px #ff00ff;
+  font-family: 'permanent marker'; /* Change to your preferred font */
+  text-align: center;
+  letter-spacing: 3px; /* Spacing between letters */
+  transform: rotate(-15deg); /* Rotate the text by 30 degrees */
+  margin-bottom: 3rem;
+  animation: neon-glow 5s ease-in-out infinite;
+  z-index: 11;
+  top: 8rem;
+  left: 7rem;
+  margin-bottom: 3rem; 
+
+} 
+
+.rotating-text {
+  height: 15rem;
+  width: 15rem;
+  top: 3rem;
+  left: 3rem;
+  position: relative;
+  animation: circularRotate  15s linear infinite;
+  font-weight: 800;
+  z-index: 10;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.rotating-text span{
+  position: absolute;
+  left: 50%;
+  transform-origin: 0 7.5rem;
+  color: #fff;
+
+}
+
+.contact__copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 2rem;
+  margin-top: 4rem;
+  background-color: black;
+}
+
+
+
+.contact__rightSection img{
+  
+  margin-top: 2rem;
+  left: 10rem;
+
+}
+.contact__whatsapp{
+  display: none;
+}
+
+
+@keyframes circularRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes simple-neon-glow {
+  from {
+    text-shadow: none;
+    opacity: 0;
+  }
+  to {
+    text-shadow: 0 0 5px #ff00ff, 0 0 30px #ff00ff, 0 0 60px #ff00ff;
+    opacity: 1;
+  }
+}
+
+
+@keyframes neon-glow {
+  0% {
+      text-shadow: none; /* Start with no glow */
+      opacity: 0; /* Text is invisible */
+  }
+
+  100% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+                   0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff,
+                   0 0 70px #ff00ff, 0 0 100px #ff00ff;
+      opacity: 1; /* Full glow and visibility */
+  }
+}
+
+@media (max-width:700px){
+
+
+  .contact__wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact__leftSection{
+    padding-left: 4%;
+    width: 84%;
+  }
+
+  .neon-text {
+    
+    animation: simple-neon-glow 5s linear infinite;
+  
+  
+  }
+  
+
+}

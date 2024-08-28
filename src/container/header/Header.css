@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    justify-content: center;   
+    height: 12vh; 
+    background-color: var(--color-background);
+    padding-top: 2rem;
+
+}
+
+.header__container{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__intro{
+    display: flex;
+    align-items: center;
+}
+
+.header__profileImage{
+    max-width: 8rem;
+    max-height: 5rem;
+    border-radius: 25px;
+}
+
+.header__name h1{
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.header__navbar a{
+    padding: 0.3rem 1rem;
+    margin-right: 1.5rem;
+}
+
+.header__menu{
+    display: none;
+}
+
+.navbar__close-icon{
+    fill: white;
+    height: 4rem;
+    width: 4rem;
+}
+
+.navbar__menu-icon{
+    fill: white;
+    height: 4rem;
+    width: 4rem;
+
+}
+
+@media (max-width:600px){
+    .header__navbar{
+        display: none;
+    }
+
+    .header__menu{
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .header__navbar-hidden{
+        font-weight: 700;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 13rem;
+        width: 67vw;
+        height: 50vh;
+        border: 1px solid var(--main-color);
+        border-radius: 25px;
+        text-align: center;
+        margin-left: 13%;
+        z-index: 10;
+        font-size: 2rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .header__navbar-hidden a{
+        padding: 5px;
+        padding-top: 3rem;
+        border-radius: 25px;
+        margin: 5px;
+    }
+
+    .header__navbar-hidden a:hover{
+       font-size: 2.5rem;
+       transition: background-color 0.5s ease, transform 0.5s ease;
+       transition: font-size 0.5s ease, transform 0.5s ease;
+
+    }
+}

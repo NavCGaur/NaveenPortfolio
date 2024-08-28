@@ -1,0 +1,149 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.skills__border{
+    display: flex;
+    width: 84vw;
+}
+
+.skills__leftBorder.visible{
+    border: 1px solid white;
+    width: 50%;
+    animation: slideRight 2s ease-in forwards;
+}
+
+.skills__rightBorder.visible{
+    border: 1px solid white;
+    width: 50%;
+    animation: slideLeft 2s ease-in forwards;
+}
+
+.skills__skill-title.visible, .skills__tools-title.visible {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    animation: zoom 2s ease-in forwards;
+
+}
+
+.skills__skill-title{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+
+.skills__skill-icons, .skills__tools-icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.skills__tools-icons{
+    margin-bottom: 3rem;
+}
+
+
+.skills__skill-slideRightAnim.visible  {
+    animation: slideRight 2s ease-in forwards;
+
+}
+
+.skills__skill-zoomAnim.visible{
+    animation: zoom 2s ease-in forwards;
+}
+
+.skills__skill-slideLeftAnim.visible  {
+    animation: slideLeft 2s ease-in forwards;
+
+}
+
+.skills__skill-leftSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__skill-rightSection{
+    display: flex;
+}
+
+.skills__tools-icons img, .skills__skill-icons img{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.skills__tools-title{
+    margin-top: 6rem;
+}
+
+.skills__skill-icons img:hover{
+    transform:scale(1.2);
+}
+
+@keyframes zoom{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes slideRight{
+    from{
+        transform: translateX(-100%)}
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes slideLeft{
+    from{
+        transform: translateX(100%)}
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+
+@media (max-width:800px){
+    .skills__skill-icons, .skills__tools-icons{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        row-gap: 3rem;        
+
+    }
+
+    .skills__tools-icons img, .skills__skill-icons img{
+        height: 12rem;
+        width: 12rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    
+.skills__skill-slideRightAnim.visible, .skills__skill-slideLeftAnim.visible, .skills__skill-zoomAnim.visible, .skills__leftBorder.visible, .skills__rightBorder.visible
+    {
+
+        animation: zoom 2s ease-in forwards;
+
+        
+
+    }
+
+}
+
+

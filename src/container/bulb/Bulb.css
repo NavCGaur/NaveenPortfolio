@@ -1,0 +1,52 @@
+.bulb{
+    position: relative;
+}
+.bulb img{
+    height: 16rem;
+    width: 16rem;
+}.neon-text {
+    position: absolute;
+    top:2rem;
+    left: 4rem;
+
+    font-size: 48px;
+    color: #fff; /* Base text color */
+    color: #ffffff; /* Bright white base text color */
+    text-shadow: 0 0 10px #fff,   /* Stronger white inner glow */
+                 0 0 20px #ff00ff, /* Strong pink outer glow */
+                 0 0 30px #ff00ff, 
+                 0 0 40px #ff00ff, 
+                 0 0 50px #ff00ff, 
+                 0 0 60px #ff00ff, 
+                 0 0 70px #ff00ff,  /* Extra glow to intensify the effect */
+                 0 0 100px #ff00ff,/* Strong outermost glow */
+                 0 0 140px #ff00ff;
+    font-family: 'permanent marker'; /* Change to your preferred font */
+    text-align: center;
+    letter-spacing: 2px; /* Spacing between letters */
+    transform: rotate(-15deg); /* Rotate the text by 30 degrees */
+    margin-bottom: 3rem;
+    animation: neon-glow 5s ease-in-out infinite;
+
+
+} 
+
+/* Neon Glow Animation */
+@keyframes neon-glow {
+    0% {
+        text-shadow: none; /* Start with no glow */
+        opacity: 0; /* Text is invisible */
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+                     0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff,
+                     0 0 70px #ff00ff, 0 0 100px #ff00ff;
+        opacity: 0.7; /* Partial glow and visibility */
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+                     0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff,
+                     0 0 70px #ff00ff, 0 0 100px #ff00ff;
+        opacity: 1; /* Full glow and visibility */
+    }
+}
