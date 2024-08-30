@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NaveenPortfolio/static/css/main.3fe783a2.css",
-    "main.js": "/NaveenPortfolio/static/js/main.37483003.js",
+    "main.js": "/NaveenPortfolio/static/js/main.c7e9bc1e.js",
     "static/js/453.8c68eb57.chunk.js": "/NaveenPortfolio/static/js/453.8c68eb57.chunk.js",
     "static/media/weatherapp.png": "/NaveenPortfolio/static/media/weatherapp.907e8ad48e17594b3184.png",
     "static/media/school.png": "/NaveenPortfolio/static/media/school.2af4a08fb028cfc60109.png",
@@ -22,11 +22,11 @@
     "static/media/circle-dot.svg": "/NaveenPortfolio/static/media/circle-dot.3f673682b11103ca0d81effab86a6785.svg",
     "static/media/circle.svg": "/NaveenPortfolio/static/media/circle.c0f0e37e787b05fc395fb6d5a658c6a1.svg",
     "main.3fe783a2.css.map": "/NaveenPortfolio/static/css/main.3fe783a2.css.map",
-    "main.37483003.js.map": "/NaveenPortfolio/static/js/main.37483003.js.map",
+    "main.c7e9bc1e.js.map": "/NaveenPortfolio/static/js/main.c7e9bc1e.js.map",
     "453.8c68eb57.chunk.js.map": "/NaveenPortfolio/static/js/453.8c68eb57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fe783a2.css",
-    "static/js/main.37483003.js"
+    "static/js/main.c7e9bc1e.js"
   ]
 }
