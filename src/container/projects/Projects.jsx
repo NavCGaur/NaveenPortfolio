@@ -1,4 +1,6 @@
 import {useState, React} from 'react'
+import { Link } from 'react-router-dom';
+
 
 import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver'; 
 
@@ -19,32 +21,24 @@ function Projects() {
   const projectsData = [{
                           title: "Education Institute Website", 
                           image: schoolProject, 
-                          description:"Fully responsive and interactive site using HTML, CSS, JavaScript and React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
-                          code:"link", 
-                          projectLink:"projectLink"
+                          description:"Fully responsive and interactive site using HTML, CSS React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
+                          code:"https://github.com/NavCGaur/school_website", 
+                          projectLink:"https://navcgaur.github.io/school_website/"
                         },
                         {
                           title: "Weather App", 
                           image: weatherApp, 
-                          description:"Fully responsive and interactive site using HTML, CSS, JavaScript and React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
-                          code:"link", 
-                          projectLink:"projectLink"
+                          description:"Fully responsive and interactive site using HTML, CSS and React. Realtime weather information such as temperature, Uv index, humidity, wind as well as 6 days forecast of major Indian cities. Also gives population data.", 
+                          code:"https://github.com/NavCGaur/weatherapp_react", 
+                          projectLink:"https://navcgaur.github.io/weatherapp_react/"
                         },
                         {
                           title: "Modern Blog", 
                           image: modernBlog, 
-                          description:"Fully responsive and interactive site using HTML, CSS, JavaScript and React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
-                          code:"link", 
-                          projectLink:"projectLink"
+                          description:"Modern fully responsive and interactive blog using HTML, CSS and React. ", 
+                          code:"https://github.com/NavCGaur/React_Blog", 
+                          projectLink:"https://navcgaur.github.io/React_Blog/"
                         },
-                        {
-                          title: "Modern Blog", 
-                          image: modernBlog, 
-                          description:"Fully responsive and interactive site using HTML, CSS, JavaScript and React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
-                          code:"link", 
-                          projectLink:"projectLink"
-                        }           
-
                 
                         ]
 
@@ -138,12 +132,12 @@ function Projects() {
               <div className='projects__card-links' >
               
                 <div className='projects__card-code'>
-                  <p>Check Code</p>
+                  <Link to={projectsData[projectIndex].code} target='_blank'>Check Code</Link>
                   <img src={github} alt='github code'/>                
                 </div>
 
                 <div className='projects__card-projectLink'>
-                  <p>Visit Project</p>
+                  <Link to={projectsData[projectIndex].projectLink} target='_blank'>Visit Project</Link>
                 </div>
 
               </div>
