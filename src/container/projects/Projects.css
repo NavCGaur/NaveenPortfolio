@@ -23,7 +23,7 @@
     left: 10%;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(148, 142, 142);
+    background-color: rgba(148, 142, 142, 0.6);
     cursor: pointer;
 }
 
@@ -34,13 +34,13 @@
     right: 10%;
     z-index: 10;
     border-radius: 50%;
-    background-color: rgb(148, 142, 142);
+    background-color: rgb(148, 142, 142, 0.6);
     cursor: pointer;
 
 }
 
 .projects__heading{
-    margin-right: 89%;
+    margin-right: 75%;
     margin-bottom: 3rem;
     margin-top: 4rem;
 }
@@ -92,7 +92,7 @@
     display: flex;
     width: 84%;
     justify-content: center;
-    overflow: hidden    ;
+    overflow: hidden;
     
 }
 
@@ -114,8 +114,8 @@
 
 
 .projects__card-active{
-    min-width: 900px;
-    height: 60vh;
+    min-width: 80%;
+    height: auto;
     overflow: hidden;
     opacity: 0;
 
@@ -257,22 +257,7 @@
     to { transform: scale(0.9); }
   }
 
-  @media (max-width:1600px){
-  
 
-
-   
-    .projects__card-code, .projects__card-projectLink{
-        width: 20rem;
-        height: 4rem;
-    }
-
-    
-    .projects__card-code img{
-        width: 4rem;
-        height: 4rem;
-      }
-  }
 
   @media (max-width:1400px){
     
@@ -295,4 +280,79 @@
         height: 4rem;
       }
 
+        
+  }
+
+  @media (max-width:600px){
+
+        .projects__heading{
+            margin-left: 6rem;
+        }
+        .projects__titles div:first-child, .projects__titles div:last-child{
+            display: none;
+        }
+        .projects__titles div:nth-child(2){
+            width: 24rem;
+        }
+        .projects__carousal{
+            width: 90%;           
+            
+        }
+
+        .projects__card{
+            display: none;
+        }
+       
+
+        .projects__card-container.visible{
+            width: 100%;
+            height: auto;
+                    
+        }
+
+       
+  }
+  
+  @media (max-width: 460px) {
+
+    .projects__container{
+        width: 100%;
+        
+        }
+    
+
+    .projects__card-active {
+      min-width: 100%;
+      width: 100%;
+    }
+  
+    .projects__card-container {
+      min-width: 100%;
+      width: 100%;
+    }
+  
+  
+  
+    .projects__card-links {
+     width: 80%;
+    }
+  
+    .projects__card-code,
+    .projects__card-projectLink {
+      width: 80%;
+      margin-bottom: 1rem;
+      margin-right: 2rem;
+    }
+
+    .projects__card-code img{
+        display: none;
+    }
+
+    .projects__card-code p{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
   }

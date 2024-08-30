@@ -2,7 +2,7 @@ import {useState, React} from 'react'
 
 import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver'; 
 
-import './Projects1.css'
+import './Projects.css'
 
 import schoolProject from '../../assets/school.png';
 import weatherApp from '../../assets/weatherapp.png';
