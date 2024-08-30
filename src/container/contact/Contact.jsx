@@ -29,7 +29,7 @@ function Contact() {
       <div className='contact__rightSection'>
         
         
-          <Link to='https://wa.me/919920899845' target='_blank' className="neon-text">HIRE <br/>ME</Link>
+          <Link to='https://wa.me/919920899845' target='_blank' className="neon-text">Connect <br/>ME</Link>
         
         
         <div className="rotating-text" >

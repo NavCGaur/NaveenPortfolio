@@ -64,17 +64,16 @@
   color: #ffffff; /* Bright white base text color */
   text-shadow: 0 0 10px #fff,   /* Stronger white inner glow */
                0 0 40px #ff00ff, 
-               0 0 100px #ff00ff,/* Strong outermost glow */
+               0 0 100px #ff00ff,
                0 0 180px #ff00ff;
   font-family: 'permanent marker'; /* Change to your preferred font */
   text-align: center;
-  letter-spacing: 3px; /* Spacing between letters */
   transform: rotate(-15deg); /* Rotate the text by 30 degrees */
   margin-bottom: 3rem;
   animation: neon-glow 5s ease-in-out infinite;
   z-index: 11;
   top: 8rem;
-  left: 7rem;
+  left: 5.5rem;
   margin-bottom: 3rem; 
 
 } 
