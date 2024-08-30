@@ -59,7 +59,7 @@ function Header() {
 
             <nav className={menuStatus?'header__navbar-hidden':'header__navbar'} >
                 <a href='#home' className='header__home' onClick={handleMenu}>Home</a>
-                <a href='#skills' className='header__skill' onClick={handleMenu}>Skill</a>
+                <a href='#skills' className='header__skill' onClick={handleMenu}>Skills</a>
                 <a href='#projects'className='header__projects' onClick={handleMenu}>Projects</a>
                 <a href='#contact' className='header__contact' onClick={handleMenu}>Contact</a>
             </nav>
