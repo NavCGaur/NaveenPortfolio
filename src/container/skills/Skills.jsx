@@ -1,8 +1,5 @@
 import React from 'react'
 
-import useIntersectionObserver from '../useIntersectionObserver/useIntersectionObserver'; 
-
-
 import './Skills.css'
 
 
@@ -21,12 +18,8 @@ import postman from '../../assets/postman.png'
 
 function Skills() {
 
-  const [refVariable, isVisible] = useIntersectionObserver({
-    threshold: 0.2 // Trigger when 50% of the component is visible
-  });
-
   return (
-    <div className='skills'  id='skills' ref={refVariable}>
+    <div className='skills'  id='skills' >
 
       <div className='skills__border'>
         <div className={`skills__leftBorder ${isVisible?'visible':''}`}></div>
