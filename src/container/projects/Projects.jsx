@@ -19,7 +19,17 @@ import {ReactComponent as CircleDot} from '../../assets/circle-dot.svg'
 
 function Projects() {
 
-  const projectsData = [{
+  const projectsData = [
+    
+                        {
+                          title: "Modern Bakery", 
+                          image: modernBakery, 
+                          description:"Dynamic bakery management system using MERN stack that enables bakery owners to manage their products, categories, testimonials, and promotions through an intuitive admin dashboard. ", 
+                          code:"https://github.com/NavCGaur/Rama-Bakery", 
+                          projectLink:"https://rama-bakery.vercel.app/"
+                        },
+
+                        {
                           title: "Education Institute Website", 
                           image: schoolProject, 
                           description:"Fully responsive and interactive site using HTML, CSS React. The project includes features such as dynamic homepage, news updates, events section, demonstrating my ability to build functional and user-friendly websites.", 
@@ -39,15 +49,7 @@ function Projects() {
                           description:"Modern fully responsive and interactive blog using HTML, CSS and React. ", 
                           code:"https://github.com/NavCGaur/React_Blog", 
                           projectLink:"https://navcgaur.github.io/React_Blog/"
-                        },
-                        {
-                          title: "Modern Bakery", 
-                          image: modernBakery, 
-                          description:"Dynamic bakery management system using MERN stack that enables bakery owners to manage their products, categories, testimonials, and promotions through an intuitive admin dashboard. ", 
-                          code:"https://github.com/NavCGaur/Rama-Bakery", 
-                          projectLink:"https://rama-bakery.vercel.app/"
-                        },
-                
+                        }
                         ]
 
 
