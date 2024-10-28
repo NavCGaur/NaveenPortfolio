@@ -22,35 +22,35 @@ function Skills() {
     <div className='skills'  id='skills' >
 
       <div className='skills__border'>
-        <div className={`skills__leftBorder ${isVisible?'visible':''}`}></div>
-        <div className={`skills__rightBorder ${isVisible?'visible':''}`}></div>
+        <div className='skills__leftBorder'></div>
+        <div className='skills__rightBorder'></div>
 
       </div>
 
-      <h1  className={`skills__skill-title ${isVisible?'visible':''}`} >SKILLS</h1>
+      <h1  className='skills__skill-title' >SKILLS</h1>
 
       <div className='skills__skill-icons' >
-        <img src={htmlIcon} alt='HTML logo' className={`skills__skill-slideRightAnim ${isVisible?'visible':''}`} ></img>
-        <img src={cssIcon} alt='CSS logo' className={`skills__skill-slideRightAnim ${isVisible?'visible':''}`} ></img>
-        <img src={jsIcon} alt='Javascript logo' className={`skills__skill-zoomAnim ${isVisible?'visible':''}`}></img>
-        <img src={reactLogo} alt='React logo' className={`skills__skill-slideLeftAnim ${isVisible?'visible':''}`} ></img>
-        <img src={nodejsIcon} alt='Nodejs logo' className={`skills__skill-slideLeftAnim ${isVisible?'visible':''}`} ></img>
+        <img src={htmlIcon} alt='HTML logo' ></img>
+        <img src={cssIcon} alt='CSS logo'  ></img>
+        <img src={jsIcon} alt='Javascript logo' ></img>
+        <img src={reactLogo} alt='React logo'  ></img>
+        <img src={nodejsIcon} alt='Nodejs logo'  ></img>
       </div>
 
     
-      <h1  className={`skills__tools-title ${isVisible?'visible':''}`} >TOOLS</h1>
+      <h1  className='skills__tools-title' >TOOLS</h1>
 
       <div className='skills__tools-icons'>
-        <img src={figma} alt='figma logo' className={`skills__skill-slideRightAnim ${isVisible?'visible':''}`}></img>
-        <img src={vscode} alt='vscode logo' className={`skills__skill-slideRightAnim ${isVisible?'visible':''}`}></img>
-        <img src={github} alt='github logo' className={`skills__skill-slideLeftAnim ${isVisible?'visible':''}`}></img>
-        <img src={postman} alt='postman logo' className={`skills__skill-slideLeftAnim ${isVisible?'visible':''}`}></img>
+        <img src={figma} alt='figma logo'></img>
+        <img src={vscode} alt='vscode logo' ></img>
+        <img src={github} alt='github logo' ></img>
+        <img src={postman} alt='postman logo'></img>
 
       </div>
 
       <div className='skills__border'>
-        <div className={`skills__leftBorder ${isVisible?'visible':''}`}></div>
-        <div className={`skills__rightBorder ${isVisible?'visible':''}`}></div>
+        <div className='skills__leftBorder'></div>
+        <div className='skills__rightBorder'></div>
 
       </div>
 
