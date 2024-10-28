@@ -22,9 +22,6 @@ function Skills() {
     <div className='skills'  id='skills' >
 
       <div className='skills__border'>
-        <div className='skills__leftBorder'></div>
-        <div className='skills__rightBorder'></div>
-
       </div>
 
       <h1  className='skills__skill-title' >SKILLS</h1>
@@ -49,9 +46,7 @@ function Skills() {
       </div>
 
       <div className='skills__border'>
-        <div className='skills__leftBorder'></div>
-        <div className='skills__rightBorder'></div>
-
+  
       </div>
 
     </div>

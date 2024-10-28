@@ -8,14 +8,17 @@
 .skills__border{
     display: flex;
     width: 84vw;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 4rem;
 }
 
 
-.skills__skill-title{
+.skills__skill-title, .skills__tools-title{
     margin-top: 3rem;
     font-size: 3rem;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -23,6 +26,7 @@
     width: 80%;
     display: flex;
     justify-content: space-around; 
+    margin-bottom: 4rem;
 }
 
 .skills__tools-icons{
@@ -42,8 +46,8 @@
 }
 
 .skills__tools-icons img, .skills__skill-icons img{
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -52,9 +56,6 @@
     margin-top: 6rem;
 }
 
-.skills__skill-icons img:hover{
-    transform:scale(1.2);
-}
 
 
 

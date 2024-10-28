@@ -67,7 +67,6 @@ function Main() {
             </div>
 
             <div className='main__bottomSection-wrapper'>
-                <a href='#'className='main__bottomSection-whatsapp' alt='whatsapp'>Whatsapp</a>
                 <a href='#projects' className='main__bottomSection-button'>Projects</a>        
             </div>
             
