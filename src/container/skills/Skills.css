@@ -10,25 +10,6 @@
     width: 84vw;
 }
 
-.skills__leftBorder.visible{
-    border: 1px solid white;
-    width: 50%;
-    animation: slideRight 2s ease-in forwards;
-}
-
-.skills__rightBorder.visible{
-    border: 1px solid white;
-    width: 50%;
-    animation: slideLeft 2s ease-in forwards;
-}
-
-.skills__skill-title.visible, .skills__tools-title.visible {
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 3rem;
-    animation: zoom 2s ease-in forwards;
-
-}
 
 .skills__skill-title{
     margin-top: 3rem;
