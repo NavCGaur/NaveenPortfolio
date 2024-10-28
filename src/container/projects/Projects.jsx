@@ -9,6 +9,7 @@ import './Projects.css'
 import schoolProject from '../../assets/school.png';
 import weatherApp from '../../assets/weatherapp.png';
 import modernBlog from '../../assets/modernBlog.png';
+import modernBakery from '../../assets/modernBakery.png';
 import github from '../../assets/github.png';
 import arrowLeft from '../../assets/arrowleft.png';
 import arrowRight from '../../assets/arrowright.png';
@@ -38,6 +39,13 @@ function Projects() {
                           description:"Modern fully responsive and interactive blog using HTML, CSS and React. ", 
                           code:"https://github.com/NavCGaur/React_Blog", 
                           projectLink:"https://navcgaur.github.io/React_Blog/"
+                        },
+                        {
+                          title: "Modern Bakery", 
+                          image: modernBakery, 
+                          description:"Dynamic bakery management system using MERN stack that enables bakery owners to manage their products, categories, testimonials, and promotions through an intuitive admin dashboard. ", 
+                          code:"https://github.com/NavCGaur/Rama-Bakery", 
+                          projectLink:"https://rama-bakery.vercel.app/"
                         },
                 
                         ]
