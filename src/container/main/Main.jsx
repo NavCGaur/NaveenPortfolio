@@ -22,7 +22,7 @@ function Main() {
         <div className='main__topSection'> 
             <div className='main__design'></div>
 
-            <h1 >FRONT-END <br /> DEVELOPER  </h1>
+            <h1 >FULL-STACK <br /> DEVELOPER  </h1>
 
             <div className='main__topSection-semicircle'> </div>
         </div>
