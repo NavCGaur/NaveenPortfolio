@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/NaveenPortfolio/static/css/main.6fd743a0.css",
-    "main.js": "/NaveenPortfolio/static/js/main.aedc4684.js",
+    "main.css": "/NaveenPortfolio/static/css/main.0f504f8b.css",
+    "main.js": "/NaveenPortfolio/static/js/main.a5c8a623.js",
     "static/js/453.8c68eb57.chunk.js": "/NaveenPortfolio/static/js/453.8c68eb57.chunk.js",
     "static/media/modernBakery.png": "/NaveenPortfolio/static/media/modernBakery.bb090dc431f2ca7e74b8.png",
     "static/media/weatherapp.png": "/NaveenPortfolio/static/media/weatherapp.907e8ad48e17594b3184.png",
     "static/media/school.png": "/NaveenPortfolio/static/media/school.2af4a08fb028cfc60109.png",
     "static/media/modernBlog.png": "/NaveenPortfolio/static/media/modernBlog.de40cb86576432199ca4.png",
+    "static/media/mdassociates.png": "/NaveenPortfolio/static/media/mdassociates.15bc3d7c0618f4461d95.png",
     "static/media/vscode.png": "/NaveenPortfolio/static/media/vscode.318555b3bad349c365e8.png",
+    "static/media/sampleapp.png": "/NaveenPortfolio/static/media/sampleapp.d54c6127e4407d5e5ef6.png",
     "static/media/js.png": "/NaveenPortfolio/static/media/js.83903b30822753b81ed1.png",
     "static/media/postman.png": "/NaveenPortfolio/static/media/postman.91690925a2050c5fa76c.png",
     "static/media/profileImage.jpg": "/NaveenPortfolio/static/media/profileImage.6efd0f190abffaa92c31.jpg",
@@ -15,6 +17,7 @@
     "static/media/css3.png": "/NaveenPortfolio/static/media/css3.9407ad358cdb22b8b1f0.png",
     "static/media/github2.png": "/NaveenPortfolio/static/media/github2.10499e8002483497c294.png",
     "static/media/Nodejs.png": "/NaveenPortfolio/static/media/Nodejs.31c0e97d5776c294d370.png",
+    "static/media/mongodb.png": "/NaveenPortfolio/static/media/mongodb.c26050ed1f2d157f3778.png",
     "static/media/figma.png": "/NaveenPortfolio/static/media/figma.ab4decc0ffd9fd552964.png",
     "static/media/whatsApp.png": "/NaveenPortfolio/static/media/whatsApp.c651bebf23c27c307430.png",
     "index.html": "/NaveenPortfolio/index.html",
@@ -22,12 +25,12 @@
     "static/media/xmark.svg": "/NaveenPortfolio/static/media/xmark.d21dd28efe7ef65901afb48fdea1a94a.svg",
     "static/media/circle-dot.svg": "/NaveenPortfolio/static/media/circle-dot.3f673682b11103ca0d81effab86a6785.svg",
     "static/media/circle.svg": "/NaveenPortfolio/static/media/circle.c0f0e37e787b05fc395fb6d5a658c6a1.svg",
-    "main.6fd743a0.css.map": "/NaveenPortfolio/static/css/main.6fd743a0.css.map",
-    "main.aedc4684.js.map": "/NaveenPortfolio/static/js/main.aedc4684.js.map",
+    "main.0f504f8b.css.map": "/NaveenPortfolio/static/css/main.0f504f8b.css.map",
+    "main.a5c8a623.js.map": "/NaveenPortfolio/static/js/main.a5c8a623.js.map",
     "453.8c68eb57.chunk.js.map": "/NaveenPortfolio/static/js/453.8c68eb57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fd743a0.css",
-    "static/js/main.aedc4684.js"
+    "static/css/main.0f504f8b.css",
+    "static/js/main.a5c8a623.js"
   ]
 }
