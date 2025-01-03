@@ -47,7 +47,7 @@ function Contact() {
      </div>
       
     <div className='contact__copyright'>
-      <p>© 2024. All rights reserved. Build with 🤍 by <b>Naveen Gaur</b></p>
+      <p>© 2025. All rights reserved. Build with 🤍 by <b>Naveen Gaur</b></p>
 
     </div>
 

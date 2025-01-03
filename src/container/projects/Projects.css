@@ -41,13 +41,11 @@
 
 .projects__heading{
     margin-right: 75%;
-    margin-bottom: 3rem;
     margin-top: 4rem;
 }
 
 .projects__titles{
     display: flex;
-    margin-bottom: 2rem;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -98,7 +96,7 @@
 
 .projects__card{
     min-width: 900px;
-    height: 60vh;
+    height: 70vh;
     overflow: hidden;
     opacity: 0;
 
@@ -131,14 +129,13 @@
     margin-right: 3rem;
     width: 94%;
     height: 60%;
-    margin: 3%;
 }
 
 .projects__card-active p{
     margin-right: 3rem;
     width: 94%;
     height: 60%;
-    margin: 3%;
+    margin: 1rem 3%;
 }
 
 .projects__card-active img{
@@ -151,7 +148,7 @@
     background-color: black;
     border-radius: 15px;
     min-width:44rem ;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +166,7 @@
 
 .projects__card-container img{
     width: 96%;
-    height: 60%;
+    height: 75%;
     border-radius: 15px;
     object-fit: cover;
     margin-top: 1rem;
@@ -247,6 +244,9 @@
 
 }
 
+.project-modal-overlay{
+    position: absolute;
+}
 @keyframes anim {
     from { transform: scale(0.9); }
     to { transform: scale(1); }

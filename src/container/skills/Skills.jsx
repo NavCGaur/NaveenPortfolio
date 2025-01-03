@@ -8,11 +8,14 @@ import cssIcon from '../../assets/css3.png'
 import jsIcon from '../../assets/js.png'
 import reactLogo from '../../assets/reactLogo.png'
 import nodejsIcon from '../../assets/Nodejs.png'
+import mongodb from '../../assets/mongodb.png'
+import mui from '../../assets/mui.png'
 
 import figma from '../../assets/figma.png'
 import vscode from '../../assets/vscode.png'
 import github from '../../assets/github2.png'
 import postman from '../../assets/postman.png'
+
 
 
 
@@ -32,6 +35,8 @@ function Skills() {
         <img src={jsIcon} alt='Javascript logo' ></img>
         <img src={reactLogo} alt='React logo'  ></img>
         <img src={nodejsIcon} alt='Nodejs logo'  ></img>
+        <img src={mongodb} alt='mongodb logo'  ></img>
+
       </div>
 
     
@@ -42,6 +47,8 @@ function Skills() {
         <img src={vscode} alt='vscode logo' ></img>
         <img src={github} alt='github logo' ></img>
         <img src={postman} alt='postman logo'></img>
+        <img src={mui} alt='mongodb logo'  ></img>
+
 
       </div>
 
